@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class assign3
+{
+    public static void main(String[] args) {
+
+        List <String> src = new ArrayList<>();
+        src.add("first");
+
+        List <String> dst = new ArrayList<>();
+
+        Collections.copy(dst, src);
+
+        System.out.println(dst);
+
+        int i = 10;
+
+    }
+}
